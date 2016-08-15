@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\artGallery\controllers;
+namespace culturePnPsu\artGallery\controllers;
 
 use Yii;
-use backend\modules\artGallery\models\ArtJob;
-use backend\modules\artGallery\models\ArtJobSearch;
+use culturePnPsu\artGallery\models\ArtJob;
+use culturePnPsu\artGallery\models\ArtJobSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -342,7 +342,7 @@ class DefaultController extends Controller {
     }
 
     protected function getTechnique($id) {
-        $datas = \backend\modules\artGallery\models\ArtTechnique::find()->where(['art_type_id' => $id])->all();
+        $datas = \culturePnPsu\artGallery\models\ArtTechnique::find()->where(['art_type_id' => $id])->all();
         return $this->MapData($datas, 'id', 'title');
     }
 

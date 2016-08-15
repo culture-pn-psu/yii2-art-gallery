@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use backend\modules\artGallery\models\ArtTechnique;
-use backend\modules\artGallery\models\ArtType;
+use culturePnPsu\artGallery\models\ArtTechnique;
+use culturePnPsu\artGallery\models\ArtType;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\artGallery\models\ArtTechniqueSearch */
+/* @var $searchModel culturePnPsu\artGallery\models\ArtTechniqueSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('art', 'เทคนิค');

@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\artGallery;
+namespace culturePnPsu\artGallery;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'backend\modules\artGallery\controllers';
+    public $controllerNamespace = 'culturePnPsu\artGallery\controllers';
 
     public function init()
     {

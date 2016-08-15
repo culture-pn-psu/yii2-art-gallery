@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\artGallery\models;
+namespace culturePnPsu\artGallery\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\artGallery\models\ArtTechnique;
+use culturePnPsu\artGallery\models\ArtTechnique;
 
 /**
- * ArtTechniqueSearch represents the model behind the search form about `backend\modules\artGallery\models\ArtTechnique`.
+ * ArtTechniqueSearch represents the model behind the search form about `culturePnPsu\artGallery\models\ArtTechnique`.
  */
 class ArtTechniqueSearch extends ArtTechnique
 {

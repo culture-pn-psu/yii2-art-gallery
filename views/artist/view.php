@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\Artist */
+/* @var $model culturePnPsu\artGallery\models\Artist */
 
 $this->title = $model->fullname;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('art', 'Artists'), 'url' => ['index']];

@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use backend\modules\person\models\Prefix;
-use backend\modules\artGallery\models\Artist;
+use culturePnPsu\artGallery\models\Artist;
 use kartik\widgets\FileInput;
 use yii\helpers\Url;
 use yii\bootstrap\Modal;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\Artist */
+/* @var $model culturePnPsu\artGallery\models\Artist */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 <?php $form = ActiveForm::begin(); ?>

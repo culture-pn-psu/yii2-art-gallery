@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\ArtTechnique */
+/* @var $model culturePnPsu\artGallery\models\ArtTechnique */
 
 $this->title = Yii::t('art', 'Update {modelClass}: ', [
     'modelClass' => 'Art Technique',

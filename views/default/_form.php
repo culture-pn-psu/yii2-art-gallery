@@ -2,17 +2,17 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\artGallery\models\ArtType;
-use backend\modules\artGallery\models\ArtTechnique;
+use culturePnPsu\artGallery\models\ArtType;
+use culturePnPsu\artGallery\models\ArtTechnique;
 use yii\widgets\MaskedInput;
-use backend\modules\artGallery\models\Artist;
-use backend\modules\artGallery\models\ArtJob;
+use culturePnPsu\artGallery\models\Artist;
+use culturePnPsu\artGallery\models\ArtJob;
 use kartik\widgets\FileInput;
 use yii\helpers\Url;
 use yii\bootstrap\Modal;
 use kartik\widgets\DepDrop;
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\ArtJob */
+/* @var $model culturePnPsu\artGallery\models\ArtJob */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

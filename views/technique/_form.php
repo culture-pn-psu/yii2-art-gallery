@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\artGallery\models\ArtType;
+use culturePnPsu\artGallery\models\ArtType;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\ArtTechnique */
+/* @var $model culturePnPsu\artGallery\models\ArtTechnique */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

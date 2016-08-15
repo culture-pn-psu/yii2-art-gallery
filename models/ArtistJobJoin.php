@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\artGallery\models;
+namespace culturePnPsu\artGallery\models;
 
 use Yii;
 

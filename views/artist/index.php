@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\artGallery\models\ArtistSearch */
+/* @var $searchModel culturePnPsu\artGallery\models\ArtistSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('art', 'Artists');

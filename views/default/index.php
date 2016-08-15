@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use backend\modules\artGallery\models\Artist;
+use culturePnPsu\artGallery\models\Artist;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\artGallery\models\ArtJobSearch */
+/* @var $searchModel culturePnPsu\artGallery\models\ArtJobSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('art', 'ผลงานศิลปะ');

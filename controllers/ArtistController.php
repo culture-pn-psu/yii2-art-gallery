@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\artGallery\controllers;
+namespace culturePnPsu\artGallery\controllers;
 
 use Yii;
-use backend\modules\artGallery\models\Artist;
-use backend\modules\artGallery\models\ArtistSearch;
+use culturePnPsu\artGallery\models\Artist;
+use culturePnPsu\artGallery\models\ArtistSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use backend\modules\artGallery\models\ArtJob;
+use culturePnPsu\artGallery\models\ArtJob;
 use yii\data\ActiveDataProvider;
 
 /**

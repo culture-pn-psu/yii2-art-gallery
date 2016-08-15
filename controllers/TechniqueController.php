@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\artGallery\controllers;
+namespace culturePnPsu\artGallery\controllers;
 
 use Yii;
-use backend\modules\artGallery\models\ArtTechnique;
-use backend\modules\artGallery\models\ArtTechniqueSearch;
+use culturePnPsu\artGallery\models\ArtTechnique;
+use culturePnPsu\artGallery\models\ArtTechniqueSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\artGallery\models\ArtJob */
+/* @var $model culturePnPsu\artGallery\models\ArtJob */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('art', 'ผลงานทั้งหมด'), 'url' => ['index']];
