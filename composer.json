@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ikhlas\\customer\\": ""
+            "culturePnPsu\\customer\\": ""
         }
     },
     "extra": {
