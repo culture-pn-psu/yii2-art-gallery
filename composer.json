@@ -11,14 +11,11 @@
     },
     "authors": [
         {
-            "name": "Ikhlas Service",
+            "name": "Culture",
             "email": "ahamad.jedu@gmail.com",
             "role" : "Developer"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
     "autoload": {
         "psr-4": {
             "culturePnPsu\\artGallery\\": ""
